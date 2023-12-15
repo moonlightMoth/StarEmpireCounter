@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    tools:context=".PlayerFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Palyer 1"
+            android:layout_gravity="center"
+            style="@style/TextEditFragPlayerName"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/fragment_player_minus_five_button"
+                style="@style/ButtonSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-5" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/fragment_player_minus_one_button"
+                style="@style/ButtonSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-1" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/fragment_player_text_edit"
+                style="@style/TextEditFragPlayer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/fragment_player_plus_one_button"
+                style="@style/ButtonSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/fragment_player_plus_five_button"
+                style="@style/ButtonSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+5" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

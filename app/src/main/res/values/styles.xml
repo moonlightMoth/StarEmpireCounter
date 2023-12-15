@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonText" parent="TextAppearance.AppCompat">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+    <style name="ButtonSize" parent="ButtonText">
+        <item name="android:minWidth">65dp</item>
+    </style>
+    <style name="TextEditFragPlayer" parent="ButtonText">
+        <item name="android:minWidth">100dp</item>
+    </style>
+    <style name="TextEditFragPlayerName" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">27sp</item>
+    </style>
+    <style name="MainActivityButton" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">60sp</item>
+        <item name="android:background">@drawable/round_button</item>
+        <item name="android:minHeight">100dp</item>
+        <item name="android:minWidth">100dp</item>
+    </style>
+</resources>
